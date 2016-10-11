@@ -8,7 +8,7 @@ body {
 	font-family : Tahoma;
 	font-size : 14px;
 	background-color : black;
-	/* toe te voegen */
+	
 }
 .all {
 	height: 700px;
@@ -25,19 +25,23 @@ article{
 	position: absolute;
 	top: 350px;
 	background-color: white;
-	opacity: 0.6;
 	height: 350px;
+	background: rgba(255,255,255,0.7);
 }
 
 nav{
-	background-image: url("bar1.png"); 
+		background-image: url("bar1.png"); 
 		padding:10px;
-}
+}		
 
 a{
 	color: white;
 	text-decoration: none;
 	padding:10px;
+}
+
+nav:hover a{
+	color: black;
 }
 
 #title{
@@ -97,7 +101,7 @@ li{
 }
 
 li:hover{
-	background-color: yellow;
+	background-color: #FFFF73;
 }
 
 #toolbox:hover .menu{
